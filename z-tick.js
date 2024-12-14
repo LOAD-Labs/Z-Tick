@@ -20,7 +20,6 @@ const checkZTickUpdate = async () => {
 
 const checkCompatibility = async (currentOSVersion) => {
     if (currentOSVersion === compatible_zephyr_version) {
-        console.log(await checkZTickUpdate())
         return true
     } else {
         return false
