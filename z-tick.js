@@ -26,4 +26,4 @@ const checkCompatibility = async (currentOSVersion) => {
     }
 }
 
-module.exports = { version, compatible_zephyr_version, checkCompatibility }
+module.exports = { version, compatible_zephyr_version, checkCompatibility, checkZTickUpdate }
