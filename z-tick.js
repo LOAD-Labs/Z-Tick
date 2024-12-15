@@ -11,7 +11,7 @@ const compatible_zephyr_version = "2"
 
 const checkZTickUpdate = async () => {
     try {
-        const result = await updater.checkUpdate("./modules/z-tick.js", "https://raw.githubusercontent.com/LOAD-Labs/Z-Tick/refs/heads/main/z-tick.js");
+        const result = await updater.checkUpdate("./modules/z-tick.js", "https://load-labs.github.io/Z-Tick/z-tick.js");
         return result;
     } catch (err) {
         return false;
