@@ -7,7 +7,7 @@
 const updater = require("./updater")
 
 const version = "1.0"
-const compatible_zephyr_version = "2"
+const compatible_zephyr_version = "2.0.0"
 
 const checkZTickUpdate = async () => {
     try {
